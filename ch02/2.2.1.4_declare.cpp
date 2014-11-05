@@ -37,7 +37,6 @@ const double esp = 1e-5;
 
 //extern关键字对于变量来说表明只声明，而不定义（分配存储空间）
 //而对于函数来说，则是多余的，可选的
-//c语言函数定义时要求有标示符，c++没有这个要求
 // Declaration & definition examples
 extern int i;		// Declaration without definition
 extern float f(float);	// Function declaration
