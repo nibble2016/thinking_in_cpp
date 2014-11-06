@@ -16,6 +16,7 @@ int main(int argc, char *argv[])
 }
 
 //c语言在函数定义时，参数要求有标示符，c++则不要求
+//c++允许不命名参数是为了给程序员提供在”参数列表中保留位置的一种方式“。
 //int add(int, int)
 int add(int a, int b)
 {
