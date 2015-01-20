@@ -38,10 +38,14 @@ const double esp = 1e-5;
 
 struct Node {
 	int a, b;
-	Node(int x, int y)
+	//Node(int x, int y)
+	//{
+		//a = x;
+		//b = y;
+	//}
+	void print(void)
 	{
-		a = x;
-		b = y;
+		printf("%d %d\n", a, b);
 	}
 };
 
@@ -49,7 +53,14 @@ struct Node {
 int main(int argc, char *argv[])
 {
 	// class也可以这样
-	Node node[] = {Node(1, 2), Node(2, 3)};
+	// 有构造函数的结构体可以这样
+	Node node1[] = {Node(1, 2), Node(2, 3)};
+	// 有构造函数的貌似这样写c++11支持
+	Node node2[] = {{1, 2}, {2, 3}};
+	//Node node2[] = {Node(1, 2), Node(2, 3)};
+
+	node1[0].print();
+	node2[0].print();
 
 	return 0;
 }
