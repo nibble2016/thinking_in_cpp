@@ -17,5 +17,9 @@ int main(int argc, char *argv[])
 	printf("%d\n", a);
 	const int b = a + c;
 	printf("%d\n", b);
+	int f, h;
+	scanf("%d%d", &f, &h);
+	const int d = f + h;
+	printf("%d\n", d);
 	return 0;
 }
