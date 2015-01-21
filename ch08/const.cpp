@@ -36,6 +36,13 @@ typedef long long ll;
 
 const double esp = 1e-5;
 
+struct Node {
+	int a, b;
+	Node(void) {}
+	// 构造函数初始化列表
+	Node(int x, int y): a(x), b(y) {}
+};
+
 int main(int argc, char *argv[])
 {
 	const int a = 10;
