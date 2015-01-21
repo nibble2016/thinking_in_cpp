@@ -48,5 +48,9 @@ int main(int argc, char *argv[])
 	const int a = 10;
 	int b[a] = {0};
 	cout << sizeof(b) << endl;
+	int f, h;
+	cin >> f >> h;
+	const int c = f + h;
+	cout << c << endl;
 	return 0;
 }
